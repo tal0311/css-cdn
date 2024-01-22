@@ -1,0 +1,88 @@
+/* display */
+.flex {
+  display: flex;
+}
+.flex.inline-flex {
+  display: inline-flex;
+}
+
+.flex-center {
+  justify-content: center;
+  align-items: center;
+}
+
+.grid {
+  display: grid;
+}
+
+.grid-center {
+  place-content: center;
+}
+
+.grid-dir-col {
+  grid-auto-flow: column;
+}
+
+.grid-dir-row {
+  grid-auto-flow: row;
+}
+
+.align-self-center {
+  align-self: center;
+}
+
+.reset-btn {
+  border: none;
+  background: none;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+}
+
+.text-center {
+  text-align: center;
+}
+
+/* list */
+.clean-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Text */
+.vertical-text {
+  writing-mode: tb-rl;
+  transform: rotate(-180deg);
+}
+
+.tag-text {
+  text-transform: uppercase;
+}
+
+/* Aspect ratios */
+.ratio-16-9 {
+  aspect-ratio: 16 / 9;
+}
+
+.ratio-square {
+  aspect-ratio: 1 / 1;
+}
+
+.ratio-card {
+  aspect-ratio: 3 / 4;
+}
+
+.ratio-poster {
+  aspect-ratio: 2 / 3;
+}
+
+.blur-bg {
+  background: rgba(255, 255, 255, 0.43);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  padding: 0.5rem;
+}
